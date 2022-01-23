@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    background-color:#e7f8fc;
+    color: #40514E;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+p{
+    line-height:2;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size:5.5rem;
+    margin-top:0;
+    color: #66BFBF;
+    margin :50px auto 0 auto;
+}
+h2{
+    color: #66BFBF;
+    font-size:2.5rem;
+    font-weight:normal;
+    padding-bottom:10px;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    border: dotted #c5caca 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+.top-container{
+    background-color:#EAF6F6;
+    position:relative;
+    padding-top:100px;
+}
+span{
+    text-decoration: underline;
+}
+.cloud-1{
+       position:absolute;
+       right:300px;
+       top:50px;
+
+}
+.cloud-2{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+.mountain{
+    position:relative;
+   
+}
+.middle-container{
+    text-align:center;
+      margin:100px 0;
+
+  }
+  .hello{
+      width:50%;
+      margin:100px auto 100px auto;
+  }
+  .skill{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+  }
+  .design-img{
+    float:left;
+    width:25%;
+    margin-right: 30px;
+  }
+  .chilli-img{
+      float:right;
+      width:25%;
+     margin-left:30px;
+      
+  }
+  .contact{
+    width:50%;
+    margin:100px auto 100px auto;
+  }
+  .button {
+    background-color: #20668f; 
+    color: #ffffff; 
+    border: none;
+    border-radius:10px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+ /** .button {
+    background-color: #20668f; 
+    color: #ffffff; 
+  }**/
+  
+  .button:hover {
+    background-color: #aedff3;
+    color: #000000;
+  }
+  .bottom-container{
+    background-color:#12b9a9;
+    height:200px;
+    margin-top:100px;
+    text-align: center;
+
+}
+.footer-link{
+    margin: 20px 20px;
+  
+}
+.footer-links{
+margin: 20px 20px;
+    
+} 
+.footer-linkss{
+    margin: 20px 20px;
+   
+}
