@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+body{
+    overflow: hidden;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #71f3ed;
+/* background: linear-gradient(50deg, #1f6f8f , #aaf6fc );
+*/
+}
+.cloud1{
+    position:absolute;
+    width:300px;  
+    top:-5px;
+    left:-500px;
+    animation: s1 30s linear 3s infinite forwards;
+   
+}   
+@keyframes s1 {
+   0%{
+     left: -250px;
+       
+   }
+   100%{
+  
+   left:100%;
+   }
+}
+
+.cloud2{
+    position:absolute;
+    width:10%; 
+    animation: s2 30s linear infinite forwards;
+   
+}   
+@keyframes s2 {
+   0%{
+     left: 0%;
+      
+   }
+   100%{
+   
+    left:100%;
+   }
+}
+.cloud3{
+    position:absolute;
+    width:600px;  
+    top:20px;
+    animation: s1 30s linear   infinite forwards;
+   
+}   
+@keyframes s1 {
+   0%{
+     left: 0%;
+       
+   }
+   100%{
+  
+   left:100%;
+   }
+}
+
+.cloud4{
+    position:absolute;
+  
+    animation: s1 30s linear   infinite forwards;
+   
+}   
+@keyframes s1 {
+   0%{
+     left: 0%;
+       
+   }
+   100%{
+  
+   left:100%;
+   }
+}
+
+h1{
+    color:rgb(1, 161, 161);
+    position:relative;
+    top:60px;
+}
+
+.main{
+    background-color: #fdfeff34;
+    backdrop-filter: blur(10px);
+    height:400px;
+    width:500px;
+    border-style:none;
+    border-radius:10px;
+    text-align: center;
+}
+.login{
+    position:relative;
+    top:100px;
+    text-align:center;
+    color: #006351;
+    
+}
+.login1{
+    margin-top: 20px;
+}
+input {
+    outline: none;
+}
+.submit{
+    position:relative;
+    top:90px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*.login2:hover{
+    color:#147279;
+} */
+.signup{
+    margin-top: 20px;
+    color:#07767e;
+}
+.sign{
+    color:#1dafb9;
+}
+.sign:hover{
+    color:#0e239e;
+}
+/**button{
+    height:30px;
+    width:150px;
+    background-color:#0a5c5f;
+    color:white;
+    border-style:solid;
+    border-radius:8px;
+}**/
+/**.login2:hover{
+    background-color:#9ef9ff;
+    color:#096970;
+} **/
+.abtn{
+    width:40px;
+    background-color: #0fa189;
+    padding:10px;
+    color:white;
+    border-radius:15px;
+    text-decoration: none;
+}
+.abtn:hover{
+    background-color:#25dfb6;
+    color:#096970;
+}
